@@ -11,41 +11,6 @@ import org.junit.*;
 import static org.junit.Assert.*;
 
 
-
-// public class CoinCombinationsTest {
-//
-//
-//   @Test
-//   public void makeChange_returnNumberOfQuarters_2() {
-//     CoinCombinations newCombo = new CoinCombinations();
-//     assertEquals("Quarters: 2 Dimes: 1 Nickels: 1 Pennies: 3", newCombo.makeChange(68));
-//   }
-//
-//   @Test
-//   public void makeChange_returnNumberOfDimes_1() {
-//     CoinCombinations newCombo = new CoinCombinations();
-//     assertEquals("Quarters: 2 Dimes: 1 Nickels: 1 Pennies: 3", newCombo.makeChange(68));
-//   }
-//
-//   @Test
-//   public void makeChange_returnNumberOfNickels_1() {
-//     CoinCombinations newCombo = new CoinCombinations();
-//     assertEquals("Quarters: 2 Dimes: 1 Nickels: 1 Pennies: 3", newCombo.makeChange(68));
-//   }
-//
-//   @Test
-//   public void makeChange_returnNumberOfPennies_3() {
-//     CoinCombinations newCombo = new CoinCombinations();
-//     assertEquals("Quarters: 2 Dimes: 1 Nickels: 1 Pennies: 3", newCombo.makeChange(68));
-//   }
-//
-//   @Test
-//   public void makeChange_returnZeroForAll_0() {
-//     CoinCombinations newCombo = new CoinCombinations();
-//     assertEquals("Quarters: 0 Dimes: 0 Nickels: 0 Pennies: 0", newCombo.makeChange(0));
-//   }
-// }
-
 public class CoinCombinationsTest extends FluentTest {
   public WebDriver webDriver = new HtmlUnitDriver();
   public WebDriver getDefaultDriver() {
